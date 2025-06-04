@@ -17,6 +17,29 @@ Reduce inference time significantly while maintaining output quality and stable 
 3. **Code Simplifications and Efficient Looping**
    Reduced redundant calculations and optimized data flow by managing the frame count carefully.
 
+Before Optimization Of inference Time (42.10 seconds): 
+
+![Screenshot 2025-06-05 012628](https://github.com/user-attachments/assets/a7ae2544-302b-43e0-91f6-4f0e34d1a9ff)
+
+
+Output Video :
+
+https://github.com/user-attachments/assets/a183cb97-5208-46f3-a8d2-45cc6fdc0979
+
+After Optimization Inference Time (5.38 seconds): 
+
+![Screenshot 2025-06-05 012728](https://github.com/user-attachments/assets/f58322e7-7ad5-4544-b6d2-ab3b7f6528bb)
+
+
+output video :
+
+https://github.com/user-attachments/assets/acef4a0c-0da9-44b2-9a20-a812241a7676
+
+Model Time After Optimization: 
+
+![Screenshot 2025-06-05 012748](https://github.com/user-attachments/assets/2cda802a-87e5-4eb8-975e-364121156b22)
+
+
 ## Key Code Snippet That Improved Performance
 
 ```python
